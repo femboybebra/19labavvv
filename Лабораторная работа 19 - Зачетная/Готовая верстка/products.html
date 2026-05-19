@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Интернет-магазин</title>
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+	<header>
+		<div class="top">
+			<div class="row">
+				<img src="assets/images/logo/logo.png" alt="">
+				<a href="index.php">
+					<h1>Copy Star</h1>
+				</a>
+			</div>
+			<h2>Девиз компании!</h2>
+		</div>
+		<div class="content">
+			<ul>
+				<li><a href="index.html">О нас</a></li>
+				<li><a href="catalog.html">Каталог</a></li>
+				<li><a href="cart.html">Корзина</a></li>
+				<li><a href="admin.html">Заказы</a></li>
+				<li><a href="where.html">Где нас найти?</a></li>
+				<li><a href="index.html">Выход</a></li>
+				<li><a href="index.html#login"><button>Вход</button></a></li>
+				<li><a href="index.html#register"><button>Регистрация</button></a></li>
+			</ul>
+		</div>
+	</header>
+
+	<div class="message"></div>
+
+	<main>
+		<div class="content">
+
+			<div class="head" style="margin-bottom: 10px">Наши товары</div>
+			<div class="row" style="margin-bottom: 20px">
+				<p>
+					<a href="#">Сброс</a> |
+					<a href="#">Год</a> |
+					<a href="#">Наименование</a> |
+					<a href="#">Цена</a> &uArr; &dArr;
+				</p>
+				<select id="category">
+					<option value disabled selected>Фильтрация по категориям</option>
+					<option value="Лазерный принтер">Лазерные принтеры</option>
+					<option value="Струйный принтер">Струйные принтеры</option>
+					<option value="Термопринтер">Термопринтеры</option>
+				</select>
+			</div>
+
+			<div class="row" id="products">
+				<div class="col">
+					<img src="assets/images/logo/logo.png" alt="tovar">
+					<div class="row">
+						<h3><a href="product.html">МТовар</a></h3>
+						<p>290$</p>
+						<input type="hidden" value="2020" name="year">
+						<input type="hidden" value="Термопринтер" name="category">
+					</div>
+					<div class="row">
+						<form class="wUnset">
+							<button type="submit" class="text-small btnForm">Редактировать</button>
+						</form>
+						<form class="wUnset">
+							<button type="submit" class="text-small btnForm">Удалить</button>
+						</form>
+					</div>
+					<p class="text-right">
+						<form>
+							<button type="submit" class="text-small btnForm">В корзину</button>
+						</form>
+					</p>
+				</div>
+				<div class="col">
+					<img src="assets/images/logo/logo.png" alt="tovar">
+					<div class="row">
+						<h3><a href="product.html">МТовар</a></h3>
+						<p>290$</p>
+						<input type="hidden" value="2020" name="year">
+						<input type="hidden" value="Термопринтер" name="category">
+					</div>
+					<div class="row">
+						<form class="wUnset">
+							<button type="submit" class="text-small btnForm">Редактировать</button>
+						</form>
+						<form class="wUnset">
+							<button type="submit" class="text-small btnForm">Удалить</button>
+						</form>
+					</div>
+					<p class="text-right">
+					<form>
+						<button type="submit" class="text-small btnForm">В корзину</button>
+					</form>
+					</p>
+				</div>
+				<div class="col">
+					<img src="assets/images/logo/logo.png" alt="tovar">
+					<div class="row">
+						<h3><a href="product.html">МТовар</a></h3>
+						<p>290$</p>
+						<input type="hidden" value="2020" name="year">
+						<input type="hidden" value="Термопринтер" name="category">
+					</div>
+					<div class="row">
+						<form class="wUnset">
+							<button type="submit" class="text-small btnForm">Редактировать</button>
+						</form>
+						<form class="wUnset">
+							<button type="submit" class="text-small btnForm">Удалить</button>
+						</form>
+					</div>
+					<p class="text-right">
+						<form>
+							<button type="submit" class="text-small btnForm">В корзину</button>
+						</form>
+					</p>
+				</div>
+			</div>
+
+		</div>
+	</main>
+
+	<footer>
+		<div class="footer">
+			Все права защищены | 2022
+		</div>
+	</footer>
+	
+</body>
+</html>
